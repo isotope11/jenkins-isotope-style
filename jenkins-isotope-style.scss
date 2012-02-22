@@ -8,7 +8,6 @@ body {
 	background: linear-gradient(top, #aabeca 0%,#b0bbc4 100%);
 }
 
-
 #top-panel{
 	background: none;
   td {
@@ -25,6 +24,7 @@ body {
 			display:block;
 			height: 85px;
 			width: 276px;
+			margin: 10px 0 0 10px;
       img {
         display:none;
       }
@@ -39,7 +39,7 @@ body {
 }
 
 #side-panel{
-  background-color: #ddd;
+  background-color: #fff;
   >div:not(#navigation){
     display: none;
   }
