@@ -7,11 +7,11 @@
     display: none; }
   #side-panel .task a {
     display: inline-block;
-    padding: 4px;
     text-decoration: none;
     width: 10%; }
     #side-panel .task a + a {
-      width: 83%; }
+      width: 83%;
+      padding: 4px; }
       #side-panel .task a + a:hover {
         background-color: #bbb; }
     #side-panel .task a:hover {
