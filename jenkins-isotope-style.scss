@@ -1,5 +1,12 @@
 #top-panel{
   background: none;
+  td {
+    a {
+      img {
+        display:none;
+      }
+    }
+  }
 }
 
 #side-panel{
