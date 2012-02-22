@@ -30,8 +30,7 @@ body {
   border-left: none; }
 
 #side-panel {
-  background-color: #fff;
-  border-right: 1px solid #ddd; }
+  background-color: #fff; }
   #side-panel > div:not(#navigation) {
     display: none; }
   #side-panel .task a {
@@ -48,6 +47,10 @@ body {
 
 #main-panel {
   background: #fff; }
+
+#main-table {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999; }
 
 #description div {
   font-size: 1.3em; }
