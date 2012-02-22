@@ -10,7 +10,7 @@
     padding: 4px;
     text-decoration: none;
     width: 10%; }
-    #side-panel .task a > a {
+    #side-panel .task a + a {
       width: 90%; }
     #side-panel .task a:hover {
       text-decoration: underline; }
