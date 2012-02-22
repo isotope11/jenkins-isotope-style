@@ -3,10 +3,8 @@
 
 #side-panel {
   background-color: #ddd; }
-  #side-panel > div {
+  #side-panel > div:not(#navigation) {
     display: none; }
-    #side-panel > div#navigation {
-      display: block; }
   #side-panel .task a {
     display: inline-block;
     padding: 4px;
