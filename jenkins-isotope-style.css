@@ -12,6 +12,8 @@
     width: 10%; }
     #side-panel .task a + a {
       width: 83%; }
+      #side-panel .task a + a:hover {
+        background-color: #bbb; }
     #side-panel .task a:hover {
       text-decoration: underline; }
 

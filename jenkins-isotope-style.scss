@@ -15,6 +15,9 @@
       width: 10%;
       &+a{
         width: 83%;
+        &:hover{
+          background-color: #bbb;
+        }
       }
       &:hover{
         text-decoration: underline
