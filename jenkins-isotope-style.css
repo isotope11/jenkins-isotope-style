@@ -1,8 +1,36 @@
+body {
+  background: #aabeca;
+  background: -moz-linear-gradient(top, #aabeca 0%, #b0bbc4 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aabeca), color-stop(100%, #b0bbc4));
+  background: -webkit-linear-gradient(top, #aabeca 0%, #b0bbc4 100%);
+  background: -o-linear-gradient(top, #aabeca 0%, #b0bbc4 100%);
+  background: -ms-linear-gradient(top, #aabeca 0%, #b0bbc4 100%);
+  background: linear-gradient(top, #aabeca 0%, #b0bbc4 100%); }
+
 #top-panel {
   background: none; }
+  #top-panel td #searchform a {
+    background: none;
+    height: auto;
+    width: auto;
+    display: block; }
+  #top-panel td > a {
+    background: url(http://www.isotope11.com/assets/isotope_logo.png) 0 0 no-repeat;
+    display: block;
+    height: 85px;
+    width: 276px;
+    margin: 10px 0 0 10px; }
+    #top-panel td > a img {
+      display: none; }
+
+#projectstatus {
+  background: #fff; }
+
+#left-top-nav {
+  border-left: none; }
 
 #side-panel {
-  background-color: #ddd; }
+  background-color: #fff; }
   #side-panel > div:not(#navigation) {
     display: none; }
   #side-panel .task a {
@@ -16,6 +44,19 @@
         background-color: #bbb; }
     #side-panel .task a:hover {
       text-decoration: underline; }
+
+#main-panel {
+  background: #fff; }
+
+#main-table {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999; }
+
+#description div {
+  font-size: 1.3em; }
+
+#footer {
+  border-top: 1px solid #ccc; }
 
 #view-message #description a img {
   padding-right: 4px; }
