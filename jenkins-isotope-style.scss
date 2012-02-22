@@ -10,11 +10,11 @@
   .task{
     a{
       display: inline-block;
-      padding: 4px;
       text-decoration: none;
       width: 10%;
       &+a{
         width: 83%;
+        padding: 4px;
         &:hover{
           background-color: #bbb;
         }
