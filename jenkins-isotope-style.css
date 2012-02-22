@@ -30,7 +30,8 @@ body {
   border-left: none; }
 
 #side-panel {
-  background-color: #fff; }
+  background-color: #fff;
+  border-right: 1px solid #ddd; }
   #side-panel > div:not(#navigation) {
     display: none; }
   #side-panel .task a {
@@ -44,6 +45,15 @@ body {
         background-color: #bbb; }
     #side-panel .task a:hover {
       text-decoration: underline; }
+
+#main-panel {
+  background: #fff; }
+
+#description div {
+  font-size: 1.3em; }
+
+#footer {
+  border-top: 1px solid #ccc; }
 
 #view-message #description a img {
   padding-right: 4px; }
