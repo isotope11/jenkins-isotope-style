@@ -4,6 +4,9 @@
 
 #side-panel{
   background-color: #ddd;
+  div:not(#navigation){
+    display: none;
+  }
   .task{
     a{
       display: inline-block;
