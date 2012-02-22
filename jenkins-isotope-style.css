@@ -4,8 +4,11 @@
 #side-panel {
   background-color: #ddd; }
   #side-panel .task a {
-    display: inline-block;
+    display: block;
+    float: left;
     padding: 4px;
     text-decoration: none; }
     #side-panel .task a:hover {
       text-decoration: underline; }
+    #side-panel .task a + a {
+      clear: right; }
