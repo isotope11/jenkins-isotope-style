@@ -9,3 +9,6 @@
     text-decoration: none; }
     #side-panel .task a:hover {
       text-decoration: underline; }
+
+#view-message #description a img {
+  padding-right: 4px; }
