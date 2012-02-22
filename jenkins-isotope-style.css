@@ -9,18 +9,20 @@ body {
 
 #top-panel {
   background: none; }
+  #top-panel td#login-field span a {
+    background: none; }
   #top-panel td #searchform a {
     background: none;
     height: auto;
     width: auto;
     display: block; }
-  #top-panel td a {
+  #top-panel td > a {
     background: url(http://www.isotope11.com/assets/isotope_logo.png) 0 0 no-repeat;
     display: block;
     height: 85px;
     width: 276px;
     margin: 10px 0 0 10px; }
-    #top-panel td a img {
+    #top-panel td > a img {
       display: none; }
 
 #projectstatus {
