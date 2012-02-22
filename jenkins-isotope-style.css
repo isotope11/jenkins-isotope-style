@@ -1,0 +1,11 @@
+#top-panel {
+  background: none; }
+
+#side-panel {
+  background-color: #ddd; }
+  #side-panel .task a {
+    display: inline-block;
+    padding: 4px;
+    text-decoration: none; }
+    #side-panel .task a:hover {
+      text-decoration: underline; }
