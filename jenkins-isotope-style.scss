@@ -13,7 +13,7 @@
       padding: 4px;
       text-decoration: none;
       width: 10%;
-      &>a{
+      &+a{
         width: 90%;
       }
       &:hover{
