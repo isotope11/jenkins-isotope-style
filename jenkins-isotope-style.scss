@@ -40,7 +40,6 @@ body {
 
 #side-panel{
   background-color: #fff;
-	border-right:1px solid #ddd;
   >div:not(#navigation){
     display: none;
   }
@@ -64,6 +63,10 @@ body {
 }
 #main-panel {
 	background:#fff;
+}
+#main-table {
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
 }
 #description {
 	div {
