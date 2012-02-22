@@ -6,15 +6,11 @@
   background-color: #ddd;
   .task{
     a{
-      display: block;
-      float: left;
+      display: inline-block;
       padding: 4px;
       text-decoration: none;
       &:hover{
         text-decoration: underline
-      }
-      &+a{
-        clear: right;
       }
     }
   }
