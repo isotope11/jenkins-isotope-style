@@ -1,7 +1,17 @@
 #top-panel{
-  background: none;
+	background: #aabeca;
+	background: -moz-linear-gradient(top, #aabeca 0%, #b0bbc4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aabeca), color-stop(100%,#b0bbc4));
+	background: -webkit-linear-gradient(top, #aabeca 0%,#b0bbc4 100%);
+	background: -o-linear-gradient(top, #aabeca 0%,#b0bbc4 100%);
+	background: -ms-linear-gradient(top, #aabeca 0%,#b0bbc4 100%);
+	background: linear-gradient(top, #aabeca 0%,#b0bbc4 100%);
   td {
     a {
+			background:url(http://http://isotope11.com/assets/isotope_logo.png) 0 0 no-repeat;
+			display:block;
+			height: 85px;
+			width: 276px;
       img {
         display:none;
       }
