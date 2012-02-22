@@ -4,8 +4,11 @@
 
 #side-panel{
   background-color: #ddd;
-  div:not(#navigation){
+  > div{
     display: none;
+    &#navigation{
+      display: block;
+    }
   }
   .task{
     a{
