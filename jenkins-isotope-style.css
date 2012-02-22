@@ -18,7 +18,8 @@ body {
     background: url(http://www.isotope11.com/assets/isotope_logo.png) 0 0 no-repeat;
     display: block;
     height: 85px;
-    width: 276px; }
+    width: 276px;
+    margin: 10px 0 0 10px; }
     #top-panel td a img {
       display: none; }
 
@@ -29,7 +30,7 @@ body {
   border-left: none; }
 
 #side-panel {
-  background-color: #ddd; }
+  background-color: #fff; }
   #side-panel > div:not(#navigation) {
     display: none; }
   #side-panel .task a {
