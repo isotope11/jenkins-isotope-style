@@ -7,6 +7,9 @@ body {
   background: -ms-linear-gradient(top, #aabeca 0%, #b0bbc4 100%);
   background: linear-gradient(top, #aabeca 0%, #b0bbc4 100%); }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #4f7b94; }
+
 #top-panel {
   background: none; }
   #top-panel td#login-field span a {
@@ -49,6 +52,8 @@ body {
 
 #main-panel {
   background: #fff; }
+  #main-panel > h1 {
+    margin-top: 0; }
 
 #main-table {
   border-top: 1px solid #999;
