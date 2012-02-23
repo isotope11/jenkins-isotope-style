@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
       width: 83%;
       padding: 4px; }
       #side-panel .task a + a:hover {
-        background-color: #f0f0f0; }
+        background-color: #e5e5e5; }
     #side-panel .task a:hover {
       text-decoration: underline; }
 
