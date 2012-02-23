@@ -53,11 +53,11 @@ h1, h2, h3, h4, h5, h6{
     &:hover{
       background-color: #f0f0f0;
     }
-  }
-  &:nth-of-type(odd) {
-    background-color:#f9f9f9;
-    &:hover{
-      background-color: #e5e5e5;
+    &:nth-of-type(odd) {
+      background-color:#f9f9f9;
+      &:hover{
+        background-color: #e5e5e5;
+      }
     }
   }
 }
