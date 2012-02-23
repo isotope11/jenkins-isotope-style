@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
     display: block; }
   #top-panel td > a {
-    background: url(http://www.isotope11.com/assets/isotope_logo.png) 0 0 no-repeat;
+    background: url("http://www.isotope11.com/assets/isotope_logo.png") 0 0 no-repeat;
     display: block;
     height: 85px;
     width: 276px;
