@@ -30,6 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #projectstatus {
   background: #fff; }
+  #projectstatus tr:nth-of-type(odd) {
+    background-color: #f9f9f9; }
 
 #left-top-nav {
   border-left: none; }
