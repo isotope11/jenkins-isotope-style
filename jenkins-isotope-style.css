@@ -32,9 +32,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff; }
   #projectstatus tr:hover {
     background-color: #f0f0f0; }
-  #projectstatus:nth-of-type(odd) {
+  #projectstatus tr:nth-of-type(odd) {
     background-color: #f9f9f9; }
-    #projectstatus:nth-of-type(odd):hover {
+    #projectstatus tr:nth-of-type(odd):hover {
       background-color: #e5e5e5; }
 
 #left-top-nav {
