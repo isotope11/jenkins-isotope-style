@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6{
         width: 83%;
         padding: 4px;
         &:hover{
-          background-color: #bbb;
+          background-color: $candy-stripe-hover;
         }
       }
       &:hover{
