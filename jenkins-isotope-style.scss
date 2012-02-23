@@ -1,6 +1,9 @@
 $headings-color: #4f7b94;
 $body-background: #aabeca;
 $body-background-bottom: #f8faf0;
+$candy-stripe1: #fff;
+$candy-stripe2: #e5e5e5;
+$candy-stripe-hover: #f0f0f0;
 $logo: "http://www.isotope11.com/assets/isotope_logo.png";
 
 body {
@@ -50,13 +53,16 @@ h1, h2, h3, h4, h5, h6{
 #projectstatus {
 	background: #fff;
   tr{
-    &:hover{
-      background-color: #f0f0f0;
-    }
     &:nth-of-type(odd) {
-      background-color:#f9f9f9;
+      background-color:$candy-stripe2;
       &:hover{
-        background-color: #e5e5e5;
+        background-color: $candy-stripe-hover;
+      }
+    }
+    &:nth-of-type(even) {
+      background-color:$candy-stripe1;
+      &:hover{
+        background-color: $candy-stripe-hover;
       }
     }
   }
