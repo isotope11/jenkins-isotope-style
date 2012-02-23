@@ -8,7 +8,7 @@ body {
   background: linear-gradient(top, #aabeca 0%, #b0bbc4 100%); }
 
 #top-panel {
-  background: none; }
+  background: url("http://isotope11.com/assets/isotope_orbit.png") no-repeat scroll 380px 60px; }
   #top-panel td#login-field span a {
     background: none; }
   #top-panel td #searchform a {

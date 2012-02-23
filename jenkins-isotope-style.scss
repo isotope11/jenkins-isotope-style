@@ -9,13 +9,13 @@ body {
 }
 
 #top-panel{
-	background: none;
+  background: url("http://isotope11.com/assets/isotope_orbit.png") no-repeat scroll 380px 60px;
 	td#login-field {
 		span {
 			a {
 				background:none;
-			}	
-		}	
+			}
+		}
 	}
   td {
 		#searchform {
@@ -24,7 +24,7 @@ body {
 				height: auto;
 				width: auto;
 				display:block;
-			}	
+			}
 		}
     &>a {
 			background:url(http://www.isotope11.com/assets/isotope_logo.png) 0 0 no-repeat;
@@ -82,7 +82,6 @@ body {
 }
 #footer {
 	border-top:1px solid #ccc;
-	
 }
 #view-message{
   #description{
