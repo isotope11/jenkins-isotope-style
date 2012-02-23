@@ -1,6 +1,7 @@
 $headings-color: #4f7b94;
 $body-background: #aabeca;
 $body-background-bottom: #b0bbc4;
+$logo: "http://www.isotope11.com/assets/isotope_logo.png";
 
 body {
 	background: $body-background;
@@ -35,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 			}
 		}
     &>a {
-			background:url(http://www.isotope11.com/assets/isotope_logo.png) 0 0 no-repeat;
+			background:url($logo) 0 0 no-repeat;
 			display:block;
 			height: 85px;
 			width: 276px;
