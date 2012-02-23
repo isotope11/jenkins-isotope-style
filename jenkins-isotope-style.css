@@ -30,12 +30,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #projectstatus {
   background: #fff; }
-  #projectstatus tr:hover {
-    background-color: #f0f0f0; }
   #projectstatus tr:nth-of-type(odd) {
-    background-color: #f9f9f9; }
+    background-color: #e5e5e5; }
     #projectstatus tr:nth-of-type(odd):hover {
-      background-color: #e5e5e5; }
+      background-color: #f0f0f0; }
+  #projectstatus tr:nth-of-type(even) {
+    background-color: white; }
+    #projectstatus tr:nth-of-type(even):hover {
+      background-color: #f0f0f0; }
 
 #left-top-nav {
   border-left: none; }
