@@ -17,8 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   #top-panel td #searchform a {
     background: none;
     height: auto;
-    width: auto;
-    display: block; }
+    width: auto; }
   #top-panel td > a {
     background: url("http://www.isotope11.com/assets/isotope_logo.png") 0 0 no-repeat;
     display: block;
