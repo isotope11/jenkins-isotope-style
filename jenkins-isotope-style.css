@@ -17,8 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   #top-panel td #searchform a {
     background: none;
     height: auto;
-    width: auto;
-    display: block; }
+    width: auto; }
   #top-panel td > a {
     background: url("http://www.isotope11.com/assets/isotope_logo.png") 0 0 no-repeat;
     display: block;
@@ -64,8 +63,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0; }
 
 #main-table {
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999; }
+  border-top: 0;
+  border-bottom: 0; }
 
 #description div {
   font-size: 1.3em; }
