@@ -1,10 +1,10 @@
 $headings-color: #4f7b94;
-$body-background: #aabeca;
-$body-background-bottom: #f8faf0;
+$body-background: #63818A;
+$body-background-bottom: #73939B;
 $candy-stripe1: #fff;
 $candy-stripe2: #e5e5e5;
 $candy-stripe-hover: #f0f0f0;
-$logo: "http://www.isotope11.com/assets/isotope_logo.png";
+$logo: "http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115";
 
 body {
 	background: $body-background;
@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6{
     &>a {
 			background:url($logo) 0 0 no-repeat;
 			display:block;
-			height: 85px;
-			width: 276px;
+			width: 130px;
+			height: 40px;
 			margin: 10px 0 0 10px;
       img {
         display:none;

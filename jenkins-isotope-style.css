@@ -1,11 +1,11 @@
 body {
-  background: #aabeca;
-  background: -moz-linear-gradient(top, #aabeca 0%, #f8faf0 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aabeca), color-stop(100%, #f8faf0));
-  background: -webkit-linear-gradient(top, #aabeca 0%, #f8faf0 100%);
-  background: -o-linear-gradient(top, #aabeca 0%, #f8faf0 100%);
-  background: -ms-linear-gradient(top, #aabeca 0%, #f8faf0 100%);
-  background: linear-gradient(top, #aabeca 0%, #f8faf0 100%); }
+  background: #63818a;
+  background: -moz-linear-gradient(top, #63818a 0%, #73939b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #63818a), color-stop(100%, #73939b));
+  background: -webkit-linear-gradient(top, #63818a 0%, #73939b 100%);
+  background: -o-linear-gradient(top, #63818a 0%, #73939b 100%);
+  background: -ms-linear-gradient(top, #63818a 0%, #73939b 100%);
+  background: linear-gradient(top, #63818a 0%, #73939b 100%); }
 
 h1, h2, h3, h4, h5, h6 {
   color: #4f7b94; }
@@ -19,10 +19,10 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     width: auto; }
   #top-panel td > a {
-    background: url("http://www.isotope11.com/assets/isotope_logo.png") 0 0 no-repeat;
+    background: url("http://xrono.isotope11.com/system/site_logos/1/original/isotope_logo.png?1330143115") 0 0 no-repeat;
     display: block;
-    height: 85px;
-    width: 276px;
+    width: 130px;
+    height: 40px;
     margin: 10px 0 0 10px; }
     #top-panel td > a img {
       display: none; }
